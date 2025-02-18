@@ -1,0 +1,380 @@
+@media (max-width:480px) {
+    body{
+        .head{
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 20px;
+            gap: 10px;
+        }
+        .fourtyfive{
+            display: block;
+            gap: 10px;
+        }
+        .navbar,.sixty{
+            display: none;
+        }
+        .one{
+            justify-items: left;
+        }
+        .fourtyfive{
+            padding: 0px 10px;
+        }
+        .two{
+            gap: 20px;
+            width: 100%;
+            flex-wrap: wrap;
+            justify-content: left;
+        }
+        .three{
+            gap: 10px;
+        }
+        .five h1{
+            text-align: center;
+        }
+        .banner{
+            width: 100%;
+            justify-content: center;
+        }
+        .fourteen{
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .six{
+            width: 100%;
+        }
+        .seven,.eight,.nine,.eleven,.fifteen,.eighteen{
+            width: 100%;
+        }
+        .twentyfive{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .sixtyone,.sixtytwo,.twentyfour,.sixtythree{
+            flex-wrap: wrap;
+        }
+        .eighteen,.fourty{
+            grid-template-columns: 1fr;
+        }
+        .thirtytwo,.thirtynine{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+    }
+}
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+.flex{
+    display: flex;
+}
+.jc{
+    justify-content: space-between;
+}
+.ai{
+    align-items: center;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px;
+}
+.logo{
+    width: 300px;
+}
+.one{
+    padding: 10px 0px;
+    justify-items: right;
+}
+.thirtythree{
+    width: 100%;
+}
+.two{
+    justify-content: right;
+    width: 100%;
+}
+.three{
+    justify-content: right;
+}
+.head{
+    padding: 10px 0px;
+}
+.navbar{
+background: #0B417F;
+color: white;
+padding: 10px 0px;
+}
+.banner-image{
+    width: 100%;
+    height: 500px;
+}
+.button-one{
+    padding: 10px 10px;
+    background: #337AB7;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner{
+    justify-items: center;
+    position: relative;
+}
+.five{
+    justify-items: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.four{
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.six{
+    width: 50%;
+}
+.nine{
+    width: 25%;
+}
+
+.seven{
+    padding-bottom: 10px;
+}
+.eight{
+    padding-bottom: 20px;
+}
+.tripadvisor{
+    width: 100%;
+}
+.rating{
+    font-size: 12px;
+    color: rgb(43, 235, 43);
+}
+.twelve{
+    padding: 0px 5px;
+    border-right: 1px solid rgb(172, 166, 166);
+}
+.eleven{
+    padding: 10px;
+    border: 1px solid black;
+    width: 25%;
+    height: fit-content ;
+}
+.fourteen{
+    padding: 20px 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button-two{
+    padding: 10px 15px;
+    background: #2B3239;
+    color: white;
+    box-shadow: 3px 3px 1px 1px rgb(192, 189, 189);
+}
+.fifteen{
+    width: 15%;
+}
+.sixteen{
+    padding: 10px 10px;
+    border: 1px solid rgb(179, 172, 172);
+    margin-bottom: 10px;
+    align-content: center;
+}
+.seventeen{
+    padding: 10px 10px;
+    border: 1px solid rgb(179, 172, 172);
+    margin-bottom: 10px;
+    align-content: center;
+    background: rgba(212, 209, 209, 0.105);
+}
+.nineteen{
+    width: 100%;
+    position: relative;
+    height: 100%;
+}
+.eighteen{
+    padding: 30px;
+    width: 85%;
+    border: 1px solid rgb(179, 172, 172);
+}
+.twenty{
+    padding: 10px 10px;
+    background: rgb(225, 223, 223);
+    width: fit-content;
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+    z-index: 999;
+}
+.twentyone{
+    color: white;
+    background: #07578B;
+    width: fit-content;
+    position: relative;
+    z-index: 9999;
+}
+.twentyone h4{
+    padding: 5px 5px;
+    border-bottom: 1px solid white;
+}
+.twentyone p{
+    padding: 5px 5px;
+}
+.twentyone::after{
+    content: "";
+position: absolute;
+border: 10px solid ;
+border-color: transparent #07578B transparent transparent ;
+top: -10px;
+left: -10px;
+z-index: 0;
+}
+.twentyone::before{
+    content: "";
+position: absolute;
+border: 10px solid ;
+border-color: transparent #07578B transparent transparent ;
+top: 47px;
+left: -10px;
+z-index: 0;
+}
+.twentytwo{
+    position: absolute;
+    top: 30px;
+    left: -11px;
+}
+.twentythree{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.nineteen img{
+    width: 100%;
+}
+.twentyfour h2{
+    padding-bottom: 20px;
+}
+.twentyfive{
+    margin-bottom: 30px;
+}
+.twentysix{
+    justify-items: center;
+    padding-bottom: 40px;
+}
+.twentyeight{
+    color: gold;
+}
+.twentynine{
+    width: fit-content;
+    line-height: 30px;
+}
+.twentyseven{
+    background: #07578B;
+   color: white; 
+   padding: 10px 10px;
+   width: 15%;
+}
+.thirty{
+    padding: 10px;
+}
+.thirtyone{
+    background: none;
+    color: #07578B;
+    font-weight: 500;
+    border: none;
+}
+.thirtytwo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.thirtyfive:hover img{
+transform: scale(1.3);
+}
+.thirtyfive img{
+    width: 100%;
+    transition: 0.9s;
+}
+.thirtyfive{
+    overflow: hidden;
+}
+
+.thirtyseven{
+    padding: 10px 10px;
+    background: rgb(225, 223, 223);
+    width: fit-content;
+    height: fit-content;
+}
+.thirtyeight{
+    width: 100%;
+    justify-items: right;
+}
+.thirtysix h3{
+  padding-bottom: 5px;
+}
+.thirtysix p{
+    padding-bottom: 5px;
+}
+.fourty{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+.fourtyfive{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.fourtysix{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.fourtyseven{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.fourtyeight{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.tr{
+    font-size: 40px;
+}
+.fourtynine{
+    background: #E6BD7E;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+.pe{
+    padding-bottom: 10px;
+}
+.fifty{
+    padding-bottom: 20px;
+}
